@@ -95,9 +95,9 @@ docker-compose down -v
     "products": [
       {
         "id": 1,
-        "name": "Chocolate Croissant",
-        "description": "Buttery croissant with chocolate filling",
-        "price": 3.50,
+        "name": "Almond Delight Cake",
+        "description": "Rich almond sponge cake topped with roasted almonds",
+        "price": 5.75,
         "stock": 50
       },
       ...
@@ -112,15 +112,15 @@ docker-compose down -v
 - **Request Body:**
   ```json
   {
-    "customer_name": "John Doe",
-    "customer_email": "john@example.com",
+    "customer_name": "Ishita gupta",
+    "customer_email": "ishita@example.com",
     "items": [
       {
         "product_id": 1,
-        "quantity": 2
+        "quantity": 1
       },
       {
-        "product_id": 3,
+        "product_id": 2,
         "quantity": 1
       }
     ]
@@ -142,26 +142,26 @@ docker-compose down -v
   ```json
   {
     "order_id": 1,
-    "customer_name": "John Doe",
+    "customer_name": "Ishita gupta",
     "status": "completed",
     "created_at": "2023-03-15T14:30:45.123456",
     "items": [
       {
         "product_id": 1,
-        "product_name": "Chocolate Croissant",
-        "quantity": 2,
-        "unit_price": 3.50,
-        "total_price": 7.00
+        "product_name": "Almond Delight Cake",
+        "quantity": 1,
+        "unit_price": 5.75,
+        "total_price": 5.75
       },
       {
-        "product_id": 3,
-        "product_name": "Blueberry Muffin",
+        "product_id": 2,
+        "product_name": "Italian Garlic Bread",
         "quantity": 1,
-        "unit_price": 2.75,
-        "total_price": 2.75
+        "unit_price": 3.00,
+        "total_price": 3.00
       }
     ],
-    "total": 9.75
+    "total": 8.75
   }
   ```
 
