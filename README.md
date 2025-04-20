@@ -47,7 +47,7 @@ The system consists of the following components:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/bakery-management-system.git
+   git clone https://github.com/ishita025/bakery-management-system.git
    cd bakery-management-system
    ```
 
